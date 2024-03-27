@@ -1,0 +1,9 @@
+alembic init alembic
+alembic revision --autogenerate -m "first migrations"
+alembic upgrade head                                 
+
+
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NGU2Y2MxNS00NmJiLTQxNDAtOTk4Mi0wZWU3ZTBmNzVjOTIiLCJpYXQiOjE3MDkzMDUxMTMsIm5iZiI6MTcwOTMwNTExMywianRpIjoiNTUwYmNjZTItN2Y0MC00NDJkLTgyMzQtNTYxOGFlZWE2YjRmIiwiZXhwIjoxNzA5MzA2MDEzLCJ0eXBlIjoiYWNjZXNzIiwiZnJlc2giOmZhbHNlfQ.WKXUAvF2oxmn3oIANz-J4LkMjuTbGgMcSKMSxE_tpjU",
+  "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3NGU2Y2MxNS00NmJiLTQxNDAtOTk4Mi0wZWU3ZTBmNzVjOTIiLCJpYXQiOjE3MDkzMDUxMTMsIm5iZiI6MTcwOTMwNTExMywianRpIjoiMDUwODdlNDQtYTY0NC00NGQzLWIzYzAtMTJhYmViMWM4NDViIiwiZXhwIjoxNzExODk3MTEzLCJ0eXBlIjoicmVmcmVzaCJ9.5UPlmIz-mQ-4No66iQbEjctTmi8KkXFN6phVpl0Lkoc"
+}

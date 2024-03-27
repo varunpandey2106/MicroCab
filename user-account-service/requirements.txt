@@ -1,0 +1,16 @@
+aio-pika
+alembic
+aioredis
+databases
+psycopg2-binary
+SQLAlchemy
+aiohttp
+email-validator
+asyncpg
+uvicorn
+passlib
+python-dotenv
+pytz
+fastapi==0.99.1
+fastapi_jwt_auth==0.5.0
+pydantic==1.10.11 

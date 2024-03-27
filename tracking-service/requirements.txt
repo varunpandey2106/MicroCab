@@ -1,0 +1,10 @@
+motor
+aio-pika
+aioredis
+fastapi
+aiohttp
+uvicorn
+haversine
+pytz
+fastapi_jwt_auth
+pydantic
