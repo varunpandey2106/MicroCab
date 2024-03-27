@@ -10,7 +10,7 @@ import json
 from . import background_tasks as bg_tasks
 from fastapi.middleware.cors import CORSMiddleware
 
-app= FastAPI(title='MicroTaxi ride-service')
+app= FastAPI(title='MicroCab ride-service')
 
 # Add CORS middleware to allow cross-origin requests
 app.add_middleware(

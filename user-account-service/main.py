@@ -7,7 +7,7 @@ from fastapi_jwt_auth import AuthJWT
 from fastapi.security import HTTPBearer
 
 from fastapi.middleware.cors import CORSMiddleware
-app=FastAPI(title='MicroTaxi user-acccount-service')
+app=FastAPI(title='MicroCab user-acccount-service')
 
 # Add CORS middleware to allow cross-origin requests
 app.add_middleware(

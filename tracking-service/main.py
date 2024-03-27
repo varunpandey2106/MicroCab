@@ -6,7 +6,7 @@ from .database import create_index
 from . import background_tasks as bg_tasks
 from fastapi.middleware.cors import CORSMiddleware
 
-app= FastAPI(title='MicroTaxi tracking-service')
+app= FastAPI(title='MicroCab tracking-service')
 
 # Add CORS middleware to allow cross-origin requests
 app.add_middleware(

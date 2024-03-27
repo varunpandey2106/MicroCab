@@ -7,7 +7,7 @@
 # from asyncpg.exceptions import UniqueViolationError
 # from fastapi.middleware.cors import CORSMiddleware
 
-# app= FastAPI(title='MicroTaxi payment-service')
+# app= FastAPI(title='MicroCab payment-service')
 
 # # Add CORS middleware to allow cross-origin requests
 # app.add_middleware(

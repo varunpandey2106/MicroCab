@@ -1,5 +1,5 @@
-<h1 align="center">MicroTaxi</h1>
-MicroTaxi is a an ongoing attempt at a scalable microservice application that showcases a robust implementation of distributed systems and the effective utilization of modern technologies in an event-driven architecture. MicroTaxi demonstrates key architectural patterns and seamless integration with various tools. I am developing this as a hands-on project to learn about building microservice applications. This project will be seeing varuous future enhancements so stay posted! 
+<h1 align="center">MicroCab</h1>
+MicroCab is a an ongoing attempt at a scalable microservice application that showcases a robust implementation of distributed systems and the effective utilization of modern technologies in an event-driven architecture. MicroCab demonstrates key architectural patterns and seamless integration with various tools. I am developing this as a hands-on project to learn about building microservice applications. This project will be seeing varuous future enhancements so stay posted! 
 
   
 ## 📋 Overview
@@ -13,7 +13,7 @@ MicroTaxi is a an ongoing attempt at a scalable microservice application that sh
 3. **🚕 Ride Service:** Responsible for managing all aspects of ride-related operations, including ride requests, ride confirmations, ride cancellations, and retrieval of past ride history.
 
    
-4. **📍 Tracking Service:** The tracking service is essential for efficient rider-driver matching. It employs MongoDB geospatial indexing to locate the nearest available driver. Additionally, the service calculates the driver's estimated time of arrival (ETA)  factoring in the driver's recent location history, distance to the pickup location or rider's destinaion, and the driver average speed. To ensure precision, MicroTaxi provides the client application an endpoint for frequent driver location updates, typically every 30 seconds(configurable), ensuring real-time positioning and enhancing the rider's experience.
+4. **📍 Tracking Service:** The tracking service is essential for efficient rider-driver matching. It employs MongoDB geospatial indexing to locate the nearest available driver. Additionally, the service calculates the driver's estimated time of arrival (ETA)  factoring in the driver's recent location history, distance to the pickup location or rider's destinaion, and the driver average speed. To ensure precision, MicroCab provides the client application an endpoint for frequent driver location updates, typically every 30 seconds(configurable), ensuring real-time positioning and enhancing the rider's experience.
 
    
 5. **💳 Payment Service:** Responsible for making payments.

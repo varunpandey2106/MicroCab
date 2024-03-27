@@ -5,7 +5,7 @@ from . import schemas
 
 app= FastAPI()
 from fastapi.middleware.cors import CORSMiddleware
-app=FastAPI(title='MicroTaxi notification-service')
+app=FastAPI(title='MicroCab notification-service')
 
 app.add_middleware(
     CORSMiddleware,

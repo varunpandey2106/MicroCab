@@ -13,7 +13,7 @@ import background_tasks as bg_tasks
 from fastapi.middleware.cors import CORSMiddleware
 
 
-app= FastAPI(title='MicroTaxi driver-service')
+app= FastAPI(title='MicroCab driver-service')
 
 # Add CORS middleware to allow cross-origin requests
 app.add_middleware(
